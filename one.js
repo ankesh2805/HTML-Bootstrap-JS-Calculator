@@ -11,9 +11,6 @@ buttons.forEach(btn => {
         if (value === "=") {
             input = eval(input);   // calculate
         } 
-        else if (value === "C") {
-            input = "";            // clear
-        } 
         else {
             input += value;        // add
         }
