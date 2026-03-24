@@ -1,0 +1,191 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="./bootstrap.css" />
+    <link rel="stylesheet" href="./one.css" />
+  </head>
+
+  <body>
+    <div class="container mt-5" style="width: 60%">
+      <div class="card">
+        <div class="card-header p-0">
+          <input
+            type="text"
+            id="display"
+            class="form-control text-right rounded-0"
+            readonly
+          />
+        </div>
+        <div class="card-body mt-2 mb-2" style="height: 100%">
+          <div class="row mb-2" 1>
+            <div class="col-3">
+              <button
+                id="btnno7"
+                onclick="change1()"
+                class="btn btn-light w-100 calc-btn"
+                value="7"
+              >
+                7
+              </button>
+            </div>
+            <div class="col-3">
+              <button
+                id="btnno8"
+                onclick="change2()"
+                class="btn btn-light w-100 calc-btn"
+                value="8"
+              >
+                8
+              </button>
+            </div>
+            <div class="col-3">
+              <button
+                id="btnno9"
+                onclick="change3()"
+                class="btn btn-light w-100 calc-btn"
+                value="9"
+              >
+                9
+              </button>
+            </div>
+            <div class="col-3">
+              <button
+                id="btnopdiv"
+                onclick="operation1()"
+                class="btn btn-warning w-100 calc-btn"
+                value="/"
+              >
+                ÷
+              </button>
+            </div>
+          </div>
+          <div class="row mb-2" 2>
+            <div class="col-3">
+              <button
+                id="btnno4"
+                onclick="change4()"
+                class="btn btn-light w-100 calc-btn"
+                value="4"
+              >
+                4
+              </button>
+            </div>
+            <div class="col-3">
+              <button
+                id="btnno5"
+                onclick="change5()"
+                class="btn btn-light w-100 calc-btn"
+                value="5"
+              >
+                5
+              </button>
+            </div>
+            <div class="col-3">
+              <button
+                id="btnno6"
+                onclick="change6()"
+                class="btn btn-light w-100 calc-btn"
+                value="6"
+              >
+                6
+              </button>
+            </div>
+            <div class="col-3">
+              <button
+                id="btnopm"
+                class="btn btn-warning w-100 calc-btn"
+                value="*"
+              >
+                X
+              </button>
+            </div>
+          </div>
+          <div class="row mb-2" 3>
+            <div class="col-3">
+              <button
+                onclick="change7()"
+                id="btnno1"
+                class="btn btn-light w-100 calc-btn"
+                value="1"
+              >
+                1
+              </button>
+            </div>
+            <div class="col-3">
+              <button
+                id="btnno2"
+                onclick="change8()"
+                class="btn btn-light w-100 calc-btn"
+                value="2"
+              >
+                2
+              </button>
+            </div>
+            <div class="col-3">
+              <button
+                id="btnno3"
+                onclick="change9()"
+                class="btn btn-light w-100 calc-btn"
+                value="3"
+              >
+                3
+              </button>
+            </div>
+            <div class="col-3">
+              <button
+                id="btnops"
+                class="btn btn-warning w-100 calc-btn"
+                value="-"
+              >
+                -
+              </button>
+            </div>
+          </div>
+          <div class="row mb-2" 4>
+            <div class="col-3">
+              <button
+                id="btnno0"
+                onclick="change10()"
+                class="btn btn-light w-100 calc-btn"
+                value="0"
+              >
+                0
+              </button>
+            </div>
+            <div class="col-3">
+              <button
+                id="btndecimal"
+                class="btn btn-light w-100 calc-btn"
+                value="."
+              >
+                .
+              </button>
+            </div>
+            <div class="col-3">
+              <button
+                id="btnequale"
+                class="btn btn-light w-100 calc-btn"
+                value="="
+              >
+                =
+              </button>
+            </div>
+            <div class="col-3">
+              <button
+                id="btnopsum"
+                class="btn btn-warning w-100 calc-btn"
+                value="+"
+              >
+                +
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <script src="./one.js" type="text/javascript"></script>
+  </body>
+</html>
